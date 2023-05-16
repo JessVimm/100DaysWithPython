@@ -12,6 +12,8 @@
 # "87654321"| 8 + 14 + 18 + 20 + 20 + 18 + 14 + 8 = 120 | 120 % 10 = 0
 
 def calc_checksum(digits):
+    if not digits.isdigit():
+        raise ValueError("input error: it should all be digits")
     total_digits = len(digits)
     sum = 0
 
