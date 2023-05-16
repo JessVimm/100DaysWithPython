@@ -1,3 +1,5 @@
+# Code for Reeborg's World Maze exercise at reeborg.ca
+
 def turn_right():
     turn_left()
     turn_left()
